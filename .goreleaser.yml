@@ -1,0 +1,6 @@
+builds:
+  # You can have multiple builds defined as a yaml list
+  -
+    id: "my-build"
+    main: ./cmd/ccc
+    binary: ccc
